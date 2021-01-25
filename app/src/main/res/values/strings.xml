@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RMA-projekt-2</string>
+    <string name="labelSlika">Ikona vježbe</string>
+    <string-array name="aktivnosti">
+        <item>Trčanje na otvorenom</item>
+        <item>Šetanje na otvorenom</item>
+        <item>Bicikliranje na otvorenom</item>
+        <item>Trčanje u zatvorenom</item>
+        <item>Plivanje u bazenu</item>
+    </string-array>
+    <string name="spremiVjezbu">Spremi vježbu</string>
+    <string name="izmjeniVjezbu">Spremi izmjene</string>
+    <string name="izbrisiVjezbu">Izbriši vježbu</string>
+    <string name="labelaNazad">Nazad</string>
+    <string name="odustani">Odustani</string>
+    <string name="odaberi">Odaberi</string>
+    <string name="ispunitePodatke">Ispunite sve podatke</string>
+    <string name="trajanjePopup">Odaberi vrijeme trajanja</string>
+    <string name="udaljenostPopup">Udaljenost (km)</string>
+    <string name="udaljenostPopupUredu">U REDU</string>
+    <string name="udaljenostPopupOdustani">ODUSTANI</string>
+    <string name="datumPopup">Odaberi datum</string>
+    <string name="vrijemePopup">Odaberi vrijeme početka</string>
+    <string name="obrisiSve">Vježbe izbrisane</string>
+</resources>

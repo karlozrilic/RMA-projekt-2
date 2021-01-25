@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/slika"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:contentDescription="@string/labelSlika"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- ********************************* -->
+
+        <LinearLayout
+            android:id="@+id/aktivnostLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Odaberite aktivnost"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id="@+id/aktivnost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- ********************************* -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <!-- ********************************* -->
+
+        <LinearLayout
+            android:id="@+id/trajanjeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trajanje"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/trajanje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="viewEnd"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- ********************************* -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <!-- ********************************* -->
+
+        <LinearLayout
+            android:id="@+id/udaljenostLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Udaljenost (km)"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/udaljenost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="viewEnd"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- ********************************* -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <!-- ********************************* -->
+
+        <LinearLayout
+            android:id="@+id/datumLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datum"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/datum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="viewEnd"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- ********************************* -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <!-- ********************************* -->
+
+        <LinearLayout
+            android:id="@+id/vrijemeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vrijeme početka"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/vrijeme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textAlignment="viewEnd"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <!-- ********************************* -->
+
+        <Button
+            android:id="@+id/novaVjezba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spremiVjezbu" />
+
+        <Button
+            android:id="@+id/izmjeniVjezbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/izmjeniVjezbu" />
+
+        <Button
+            android:id="@+id/izbrisiVjezbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/izbrisiVjezbu" />
+
+        <Button
+            android:id="@+id/nazad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelaNazad" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
