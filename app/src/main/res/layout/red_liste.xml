@@ -33,7 +33,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     app:materialIcon="calendar"
-                    app:materialIconColor="#000000"
+                    app:materialIconColor="@color/grey"
                     app:materialIconSize="24dp"
                     android:scaleType="center"
                     />
@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     app:materialIcon="clock"
-                    app:materialIconColor="#000000"
+                    app:materialIconColor="@color/grey"
                     app:materialIconSize="24dp"
                     android:scaleType="center"
                     />
@@ -82,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     app:materialIcon="timer"
-                    app:materialIconColor="#000000"
+                    app:materialIconColor="@color/grey"
                     app:materialIconSize="24dp"
                     android:scaleType="center"
                     />
@@ -104,7 +104,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     app:materialIcon="map_marker_distance"
-                    app:materialIconColor="#000000"
+                    app:materialIconColor="@color/grey"
                     app:materialIconSize="24dp"
                     android:scaleType="center"
                     />
